@@ -1,0 +1,37 @@
+package e
+
+const (
+	SUCCESS               = 200
+	LOGIN_SUCCESS         = 201
+	LOGOUT_SUCCESS        = 202
+	SIGNUP_SUCCESS        = 203
+	GETTASKLIST_SUCCESS   = 204
+	GETVERIFYCODE_SUCCESS = 205
+
+	FAIL               = 500
+	LOGIN_FAIL         = 501
+	LOGOUT_FAIL        = 502
+	SIGNUP_FAIL        = 503
+	GETTASKLIST_FAIL   = 504
+	GETVERIFYCODE_FAIL = 505
+
+	INVALID_PARAMS = 400
+
+	ERROR_COOKIE_NOT_SET         = 10001
+	ERROR_AUTH_CHECK_JWT_FAIL    = 10002
+	ERROR_AUTH_CHECK_JWT_TIMEOUT = 10003
+	ERROR_AUTH_JWT               = 10004
+	ERROR_AUTH                   = 10005
+
+	ERROR_SIGNUP              = 20001
+	ERROR_USERNAME_OR_PAWWORD = 20002
+
+	ERROR_POST_C = 30001
+	ERROR_POST_M = 3002
+
+	//	mysql err  参考错误返回值 和 https://github.com/VividCortex/mysqlerr/blob/master/mysqlerr.go
+
+	ER_DUP_ENTRY       = 1062
+	ER_DUP_ENTRY_NAME  = 10621
+	ER_DUP_ENTRY_PHONE = 10622
+)

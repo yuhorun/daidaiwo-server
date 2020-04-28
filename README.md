@@ -1,7 +1,9 @@
 # daidaiwo-server
+
 simple practice with gin
 
 #Folder Description 
+
 ./app.ini           init parameter 
 
 /c                  controller, the files inside corresponding with /d                
